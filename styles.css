@@ -1,4 +1,6 @@
-body {
+body,
+html {
+  overflow-x: hidden;
   background-color: ivory;
 }
 
@@ -22,6 +24,10 @@ p {
   border-radius: 10px;
 }
 .container {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
   width: 100%;
   overflow: auto;
   text-align: center;
@@ -44,9 +50,16 @@ p {
   background-color: green;
 }
 
+.input {
+  max-width: 100%;
+  margin-right: 2rem;
+}
+
 #output {
+  max-width: 80%;
   text-align: center;
-  overflow: auto;
+  /* overflow: auto; */
+  margin-right: 2rem;
 }
 
 .deleteButton {
