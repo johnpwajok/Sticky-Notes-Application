@@ -1,4 +1,4 @@
-Live Version: https://sticky-notes-application.herokuapp.com/
+Live Version: https://amazing-hugle-7b7a9e.netlify.app/
 # Sticky-Notes-Application
 
 Application that allows the user to create customisable and editable notes on the web page.
